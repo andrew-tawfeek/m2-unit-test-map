@@ -5,7 +5,8 @@
 A single zoomable map of the Macaulay2 engine unit tests, with component groups,
 file dependencies, fixture and template relationships, and mathematical explanations
 of 502 test declarations. Select a file to highlight its neighborhood and inspect
-its tests. LaTeX is rendered locally with KaTeX; no external runtime services are required.
+its tests. Drag the divider to resize the details sidebar; the width is saved locally.
+The map follows your system light/dark preference. LaTeX is rendered locally with KaTeX; no external runtime services are required.
 
 ## Source snapshot
 
@@ -22,6 +23,7 @@ linked assertions remain authoritative. Generating this map does not run engine 
 ## Edit and rebuild
 
 - `map-page.html`: page layout and interactions.
+- `sidebar.js`: accessible, persistent sidebar resizing.
 - `map.svg`: the unified dependency map.
 - `map-meta.json`: map dimensions and edges.
 - `described-data.json`: pinned source inventory and editable LaTeX descriptions.
