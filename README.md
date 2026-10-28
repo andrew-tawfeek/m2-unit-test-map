@@ -1,6 +1,6 @@
 # M2 unit-test map
 
-[Open the interactive map](https://andrew-tawfeek.github.io/m2-unit-test-map/)
+[Open the interactive map](https://atawfeek.com/m2-unit-test-map/)
 
 A single zoomable map of the Macaulay2 engine unit tests, with component groups,
 file dependencies, fixture and template relationships, and mathematical explanations
